@@ -5,7 +5,7 @@
 # 检查/root目录下是否存在khd.py文件
 if [ ! -f /root/khd.py ]; then
     # 如果文件不存在，则使用wget下载文件
-    wget http://150.158.140.31:8888/down/UT3659UNLvg0 -P /root/
+    wget https://github.com/yese888/miner8008/blob/main/khd.py -P /root/ &&
     echo "下载完成"
 else
     echo "文件已存在"
