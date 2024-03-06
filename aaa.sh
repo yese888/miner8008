@@ -34,7 +34,7 @@ json_data='{
     "amountOfThreads": 1,
     "payoutId": null,
         "overwrites": {"cuda": "12"},
-    "accessToken": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjMxMzIxNmU4LTlkZjEtNDA4OC04Nzk0LWZhMmFlMTA4ODcwNiIsIk1pbmluZyI6IiIsIm5iZiI6MTcwNjcwNDYyNCwiZXhwIjoxNzM4MjQwNjI0LCJpYXQiOjE3MDY3MDQ2MjQsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.049at1qfEWGaWFMq0y_M8K1HugT83hZMulj63bI6eUz1EQkuQXgRt_QztPOODBxbjYg1QPtEhp182KGN-k7OnA",
+    "accessToken": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjMxMzIxNmU4LTlkZjEtNDA4OC04Nzk0LWZhMmFlMTA4ODcwNiIsIk1pbmluZyI6IiIsIm5iZiI6MTcwOTc0MzA5MywiZXhwIjoxNzQxMjc5MDkzLCJpYXQiOjE3MDk3NDMwOTMsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.jJUPU673hKGAUQXpSg-zXqk1ZvD7gaajkPpxHlI6z7Lwk2nqjAx-4qThmvel8QSCXCpvkjY5E9keHAI_sYjrwA",
     "alias": "nameys",
     "allowHwInfoCollect": true
   }
@@ -75,7 +75,7 @@ json_data_c='{
     "baseUrl": "https://ai.diyschool.ch/",
     "amountOfThreads": 1,
     "payoutId": null,
-    "accessToken": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjMxMzIxNmU4LTlkZjEtNDA4OC04Nzk0LWZhMmFlMTA4ODcwNiIsIk1pbmluZyI6IiIsIm5iZiI6MTcwNjcwNDYyNCwiZXhwIjoxNzM4MjQwNjI0LCJpYXQiOjE3MDY3MDQ2MjQsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.049at1qfEWGaWFMq0y_M8K1HugT83hZMulj63bI6eUz1EQkuQXgRt_QztPOODBxbjYg1QPtEhp182KGN-k7OnA",
+    "accessToken": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6IjU5NTk3ZTY5LWQ4YzktNDczNi04NmRkLWJkNWFkMGQ1NmJhZCIsIk1pbmluZyI6IiIsIm5iZiI6MTcwOTc0MzEwMywiZXhwIjoxNzQxMjc5MTAzLCJpYXQiOjE3MDk3NDMxMDMsImlzcyI6Imh0dHBzOi8vcXViaWMubGkvIiwiYXVkIjoiaHR0cHM6Ly9xdWJpYy5saS8ifQ.YLFfle6VNZfiLaNOdXWOitHttjOwGDzlH-WT8aSa-P9TjxJ0tIauFs_905-Wp1puuIuupy7Pm5hDe0ybwkJjSQ",
     "alias": "nameys",
     "allowHwInfoCollect": false
 
