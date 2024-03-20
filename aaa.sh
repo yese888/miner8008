@@ -19,8 +19,8 @@ mkdir ~/c
 
 
 cd ~/g
-wget https://dl.qubic.li/downloads/qli-Client-1.8.6-Linux-x64.tar.gz &&
-tar -xvf qli-Client-1.8.6-Linux-x64.tar.gz
+wget https://dl.qubic.li/downloads/qli-Client-1.8.9-Linux-x64.tar.gz &&
+tar -xvf qli-Client-1.8.9-Linux-x64.tar.gz
 echo "软件下载成功，等待启动GPU"
 #wget http://150.158.140.31/while.sh
 #wget http://150.158.140.31/qli-Client &&
