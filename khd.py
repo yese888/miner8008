@@ -1,7 +1,22 @@
 import subprocess
 import importlib
+import os
 客户标识='ys'
 地区='A组'
+def install_pip_with_get_pip():  
+    try:  
+        print("尝试使用 get-pip.py 安装 pip...")  
+        # 下载 get-pip.py 脚本  
+        subprocess.run(['curl', 'https://bootstrap.pypa.io/get-pip.py', '-o', 'get-pip.py'], check=True)  
+        # 运行脚本安装 pip  
+        subprocess.run(['python3', 'get-pip.py'], check=True)  
+        print("使用 get-pip.py 成功安装 pip.")  
+        # 清理下载的脚本  
+        os.remove('get-pip.py')  
+        return True  
+    except subprocess.CalledProcessError as e:  
+        print(f"使用 get-pip.py 安装 pip 时出现错误：{e}")  
+        return False 
 def install_pip():
     try:
         print("检查是否已安装")
@@ -12,12 +27,13 @@ def install_pip():
         # 如果没有安装 pip，则安装
         print("开始安装")
         try:
-            subprocess.run(['sudo', 'apt', 'install', 'python3-pip', '-y'], check=True)
-            print("成功安装 Python 3 pip.")
+            install_pip_with_get_pip()
         except subprocess.CalledProcessError as e:
             print(f"安装过程中出现错误：{e}")
         except Exception as e:
             print(f"安装过程中出现未知错误：{e}")
+ 
+
 
 # 安装缺失的库
 def install_module(module_name):
@@ -137,7 +153,7 @@ def 获取算力值():
 
         # 逐行匹配，找到符合条件的行即可
         for line in lines:
-            match = re.search(r'.*\|(.+?)it/s', line)
+            match = re.search(r'([0-9\.]{1,}) it/s', line)
             if match:
                 matched_text = match.group(1)
                 break
